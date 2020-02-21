@@ -15,3 +15,4 @@ Following are the urls and their function.
 2) /users/login : both get and post requests . user view login page and can login
 3) /users/register : both get and post requests . user view signup page and can signup
 4) /users/logout : supports get request logs the user out
+5) /delete/work_id/ : deletes the work entry 
