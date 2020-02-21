@@ -16,3 +16,11 @@ def index(request):
             return redirect('/')
     else:
         return redirect('/users/login')
+
+def delete_work(request , work_id=None):
+
+    if not work_id:
+        return redirect('/')
+    else:
+        WorkDiary.objects.filter(id=work_id , user=request.user).delete()
+        return redirect('/')

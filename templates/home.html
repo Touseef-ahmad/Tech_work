@@ -6,10 +6,10 @@ welcome {{user_name}}<br/>
 </style>
 <h2>Your work history</h2>
 <table >
-  <tr><th>Date</th><th>Hours worked</th></tr>
+  <tr><th>Date</th><th colspan="2">Hours worked</th></tr>
   {% for entry in work_diary %}
   <tr><td>{{entry.date}} </td>
-  <td>{{entry.hours_worked}}</td></tr>
+  <td>{{entry.hours_worked}}</td><td><a href="delete/{{entry.id}}/">delete</a></td></tr>
   {% endfor %}
 </table>
 
