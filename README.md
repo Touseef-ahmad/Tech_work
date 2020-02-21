@@ -1,4 +1,5 @@
 # Documentation written by Touseef Ahmad
+
 ## how to run
 1) just type
 ```python 
@@ -9,6 +10,8 @@ python manage.py runserver
 4) fill the form and click signup
 5) now you'll be redirect to home page where you can view add delete working hours. (initially you wont see anything under working history. makes sense?)
 6) once you start adding working hours you'll see them in a table from where you can delete them
+## sample image
+![Home Page](./samples/work.png)
 ## Apps
 This project contains 2 apps **users** and **work_diary**
 
